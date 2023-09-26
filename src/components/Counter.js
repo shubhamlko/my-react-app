@@ -20,7 +20,7 @@ setCounter(){
       <div>
         <h2> Counter</h2>
         <p> you have clicked : {this.state.count}  times</p>
-        <button type="button" onClick={() => this.setCounter()} class="btn btn-danger">click me</button> 
+        <button type="button" onClick={() => this.setCounter()} className="btn btn-danger">click me</button> 
 
         </div>
     )

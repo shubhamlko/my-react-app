@@ -6,6 +6,9 @@ import Greet from './components/Greet'
 import Message from './components/Msg';
 import Counter from './components/Counter';
 import Eventbind from './components/Eventbind';
+import ParentCompent from './components/ParentCompent';
+import UserGreeting from './components/UserGreeting';
+import Namelist from './components/Namelist';
 
 function App() {
   return (
@@ -20,6 +23,12 @@ function App() {
       <Message />
       <Counter />
       <Eventbind />
+
+      <ParentCompent />
+
+      <UserGreeting />
+
+      <Namelist />
     </>
   );
 }
