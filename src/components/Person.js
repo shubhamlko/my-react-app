@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Person({person}) {
+function Person({person , keys}) {
   return (
     <div>
-        <h2>
-        i am {person.name} and i am {person.age} old
-        </h2>
+        <h5>
+      {keys}  i am {person.name} and i am {person.age} old
+        </h5>
     </div>
   )
 }
