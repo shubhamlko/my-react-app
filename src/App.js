@@ -12,10 +12,11 @@ import './App.css';
 // import StyleExample1 from './components/CssStylingExample/StyleExample1';
 // import Form from './components/formHandling/Form';
 // import Lifecyclea from './components/lifecycle/LifecycleA';
-import  Fragment from './components/Fragment';
+// import  Fragment from './components/Fragment';
 function App() {
   return (
     <>
+      <h3 className='text-center bg-secondary text-white shadow-sm py-4 '>React Application</h3>
      {/* <Welcome />
       <Functionbased />
       <Greet Name="shubham" surName="rawat" />
@@ -27,11 +28,11 @@ function App() {
       <Eventbind />
       <ParentCompent />
       <UserGreeting />
-      <Namelist /> */}
-      {/* <StyleExample1 primary={true} /> */}
-      {/* <Form /> */}
-      {/* <Lifecyclea /> */}
-      <Fragment /> 
+      <Namelist /> 
+       <StyleExample1 primary={true} /> 
+       <Form /> 
+     <Lifecyclea /> 
+      <Fragment />  */}
     </>
   );
 }
