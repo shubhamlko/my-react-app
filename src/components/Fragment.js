@@ -6,6 +6,7 @@ function Fragment() {
         <React.Fragment> 
             <div>Fragment</div>
             <div></div>
+            <div className='deee'></div>
         </React.Fragment>
   )
 }
