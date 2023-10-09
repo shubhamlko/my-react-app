@@ -1,5 +1,8 @@
 
 import './App.css';
+import Registraion from './components/LoginRegistraion/Registraion';
+import Http from './components/https/Http';
+import Postform from './components/https/Postform';
 // import Welcome from './components/Welcome'
 // import Functionbased from './components/Functionbases';
 // import Greet from './components/Greet'
@@ -29,10 +32,14 @@ function App() {
       <ParentCompent />
       <UserGreeting />
       <Namelist /> 
-       <StyleExample1 primary={true} /> 
+       <StyleExample1 primary=x1{true} /> 
        <Form /> 
      <Lifecyclea /> 
       <Fragment />  */}
+
+      {/* <Http /> */}
+      {/* <Postform /> */}
+      <Registraion />
     </>
   );
 }
